@@ -1,6 +1,7 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
 import "./style.css"
+import Footer from './components/Footer.vue';
 </script>
 
 <template class="bg">
@@ -15,24 +16,8 @@ import "./style.css"
     </div>
   
    <header>
-    <!-- <img alt="foto CV" class="foto" src="@/assets/foto1.jpg" width="125" height="125" />
-    <div class="text">
-        <h3>
-        Software Developer
-        </h3>
-        <h5>
-        <p>Kp. Kalimanggis Rt. 01/04 Kel. Harjamukti Kec. Cimanggis Kota Depok</p>
-        <p>089501145766</p>
-        <p><a target="_blank" href="/">fifitapr76@gmail.com</a></p>
-        <p><a target="_blank" href="https://instagram.com/fifit_apryni?igshid=YmMyMTA2M2Y=">@fifit_apryni</a></p>
-          <p><a target="_blank" href="https://github.com/FifitApr">FifitApr</a></p>
-        </h5>
-    </div> -->
-    
+  
 
-    <!-- <div class="wrapper">
-    </div> -->
-    <!-- <center> -->
     <div class="card">
     <div class="card-box">
     <img src="@/assets/foto1.jpg" alt="">
@@ -48,13 +33,12 @@ import "./style.css"
     </div>
     </div>
     
-    <!-- </center> -->
    </header>
    <div class="btn-group">
     <button><a href="https://www.canva.com/design/DAFJdAWgqjI/a7BrNAplN7OGadHqZLaNLg/">Lihat CV Saya</a></button>
     </div>
 
-   
+  <Footer/>
   </div>
 </template>
 
