@@ -83,13 +83,13 @@ header {
       box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
     }
     .card img{
-      width: 200px;
-      height: 200px;
-      border-radius: 100px;
+      width: 300px;
+      height: 300px;
+      border-radius: 100%;
     }
     .card-box{
       padding: 30px;
-      width: 35rem;
+      width: 30rem;
       justify-content: center;
     }
     .card-box h1{
@@ -98,14 +98,37 @@ header {
     }
     .card-box p{
       font-weight: 500;
-      font-family: 'Times New Roman', Times, serif;
+      /* font-family: 'Times New Roman', Times, serif; */
     }
     .card-box p a{
       text-decoration: none;
+      color: rgba(0, 0, 0, 0.815);
     }
     .card-box2{
       padding: 30px;
-      width: 35rem;
-      background-color: rgba(105, 105, 105, 0.781);
+      width: 30rem;
+      background-color: #CFD2CF;
     }
+
+    .btn-group button {
+      background-color: #CFD2CF;
+      border: 1px solid black; 
+      /* color: white;  */
+      padding: 10px 24px;
+      /* cursor: pointer; 
+      float: left; */
+      width: 60rem;
+      margin-top: 30px;
+      
+    }
+    
+    .btn-group button a{
+      text-decoration: none;
+      color: black;
+      font-size: 1.2rem;
+      font-weight: 600;
+    }
+.btn-group button:hover {
+  background-color: gray;
+}
    }
