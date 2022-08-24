@@ -3,7 +3,7 @@ import { RouterLink, RouterView } from 'vue-router'
 import "./style.css"
 </script>
 
-<template>
+<template class="bg">
   <div class="container">
     <div class="navbar">
       <ul>
@@ -15,11 +15,10 @@ import "./style.css"
     </div>
   
    <header>
-    <img alt="foto CV" class="foto" src="@/assets/foto1.jpg" width="125" height="125" />
+    <!-- <img alt="foto CV" class="foto" src="@/assets/foto1.jpg" width="125" height="125" />
     <div class="text">
         <h3>
         Software Developer
-          
         </h3>
         <h5>
         <p>Kp. Kalimanggis Rt. 01/04 Kel. Harjamukti Kec. Cimanggis Kota Depok</p>
@@ -27,22 +26,30 @@ import "./style.css"
         <p><a target="_blank" href="/">fifitapr76@gmail.com</a></p>
         <p><a target="_blank" href="https://instagram.com/fifit_apryni?igshid=YmMyMTA2M2Y=">@fifit_apryni</a></p>
           <p><a target="_blank" href="https://github.com/FifitApr">FifitApr</a></p>
-          
         </h5>
-    </div>
+    </div> -->
     
 
-    <div class="wrapper">
-      
-
-      <!-- <nav>
-        
-      </nav> -->
+    <!-- <div class="wrapper">
+    </div> -->
+    <center>
+    <div class="card">
+    <div class="card-box">
+    <img src="@/assets/foto1.jpg" alt="">
+    <h1>Fifit Apriyani</h1>
+    <h4>Fornt End Developer</h4>
+    <p><a href="fifitapr76@gmail.com">fifitapr76@gmail.com</a></p>
+    <p><a href="https://instagram.com/fifit_apryni?igshid=YmMyMTA2M2Y">@fifit_apryni</a></p>
+    <p><a href="https://github.com/FifitApr">FifitApr</a></p>
     </div>
-    
+    <div class="card-box2">
+    <RouterView />
+    </div>
+    </div>
+    </center>
    </header>
 
-   <RouterView />
+   
   </div>
 </template>
 
